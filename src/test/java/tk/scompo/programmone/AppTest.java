@@ -17,9 +17,9 @@ public class AppTest {
     @Test
     public void testMainShouldNotThrowAnException() {
             try {
-                App.main(new String[]{}));
+                App.main(new String[]{});
             }catch (Exception e) {
-                fail("An exception during main: " + e.getMesage();
+                fail("An exception during main: " + e.getMesage());
             }
     }
 }
